@@ -208,9 +208,112 @@ body{
 
 img{
     margin-top:50px;
-    width:80%;
+    margin-bottom: 50px;
+    width:100%;
     border-radius: 7px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .7);
+}
+
+@media screen and (max-width: 850px) {
+    .container .Popup div .Methoden{
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container .Popup div .Methoden li{
+        min-height: 30px;
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+        padding: 20px,0,0,0;
+        width: 90%;
+    }
+    .container .Popup div .Methoden li .UnterLebenslauf {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 20px,0,0,0;
+        width: 100%;
+    }
+    .container .Popup div .Methoden li .UnterLebenslaufLang {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        padding: 20px,0,0,0;
+        margin: 0;
+        width: 100%;
+    }
+    .container .Popup div .Methoden li .UnterLebenslaufFull {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        padding: 20px,0,0,0;
+        width: 100%;
+        line-height: 20px;
+    }
+    .container .Popup div .Methoden .aLang {
+        padding: 20px,0,0,0;
+        width: 100%;
+    }
+    .container .Popup div .Methoden .bLang {
+        padding: 20px,0,0,0;
+        width: 100%;
+    }
+    .container .Themen-container div{
+        width: 250px;
+        height: 175px;
+    }
+    .container .Popup div{
+        font-size: 24px;
+        width: calc(100% - 70px);
+    }
+    .container .Popup span{
+        font-size: 31px;
+    }
+    img{
+        margin-top:30px;
+        margin-bottom: 30px;
+        width:100%;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container .Popup div .Methoden{
+        font-size: 14px;
+        padding-left: 0px;
+    }
+    .container .Popup div .Methoden li{
+        min-height: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .Popup div{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container .Popup div .Methoden{
+        font-size: 10px;
+        padding-left: 0px;
+    }
+    .container .Popup div .Methoden li{
+        min-height: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .Popup div{
+        font-size: 18px;
+    }
 }
 
 .BorderOuter {
