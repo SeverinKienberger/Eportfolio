@@ -157,6 +157,12 @@ body{
     color: #163f44;
     cursor: pointer;
     z-index: 100;
+    padding: 5px;
+    transition: all ease 0.3s;
+}
+
+.container .Popup span:hover {
+    color: #ffffff;
 }
 
 .container .Popup div::-webkit-scrollbar {
@@ -230,7 +236,7 @@ img{
         flex-direction: column;
         line-height: 20px;
         padding: 20px,0,0,0;
-        width: 90%;
+        width: 100%;
     }
     .container .Popup div .Methoden li .UnterLebenslauf {
         display: flex;
@@ -277,6 +283,8 @@ img{
     }
     .container .Popup span{
         font-size: 31px;
+        padding: 10px;
+        right: 30px;
     }
     img{
         margin-top:30px;
